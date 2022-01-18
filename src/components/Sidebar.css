@@ -1,0 +1,35 @@
+.side-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.brand{
+    color: #f87628;
+    font-weight: 700;
+    font-size: x-large;
+    margin-top: 0.5em;
+    margin-left: 1em;
+    margin-bottom: 1.5em;
+}
+
+.item{
+    color: white;
+    padding: 0.75em 0.5em 0.75em 2em;
+}
+
+.active{
+    background-color: rgba(190, 190, 190, 0.336)
+}
+
+.logout{
+    color: white;
+    background-color: rgba(190, 190, 190, 0.336);
+    border: none;
+    /* align-self: center; */
+    margin: auto;
+    margin-top: 10em;
+    font-size: large;
+    width: 85%;
+    padding: 0.5em 0;
+    border-radius: 10px;
+}
